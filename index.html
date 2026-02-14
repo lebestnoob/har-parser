@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <title>HAL File Extractor</title>
+    <style>
+        table, th, td {
+            border:1px solid black;
+            white-space: nowrap; text-overflow:ellipsis; overflow: hidden; max-width:78vw;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Input a file!</h1>
+    <input type="file" id="file" />
+    <div>
+        <button id="downloadAll">Download All</button>
+        <table>
+            <tbody id="container">
+                <tr>
+                    <th>
+                        Data
+                    </th>
+                    <th>
+                        Request Time
+                    </th>
+                    <th>
+                        Size
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
