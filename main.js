@@ -43,7 +43,7 @@ function handleFiles() {
             time_td.appendChild(p_time);
 
             tr.appendChild(data_td);
-            tr.appendChild(p_time);
+            tr.appendChild(time_td);
             tr.appendChild(size_td);
 
             container.appendChild(tr);
