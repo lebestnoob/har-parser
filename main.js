@@ -15,7 +15,7 @@ function handleFiles() {
             const a = document.createElement("a");
             a.href = `data:${content.response.content.mimeType};${content.response.content.encoding},${content.response.content.text}`;
             
-            const t = new Date(content.startedDateTime).valueOf();
+            const t = new Date(content.startedDateTime).valueOf() + content.time;
             // const t = content.time;
             // let t;
 
